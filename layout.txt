@@ -1,0 +1,24 @@
+Display 0 as default on screen before any button is pushed
+
+When clear is pushed
+  Display 0 in #screen
+  Clear all operations
+  Clear all stored values
+
+Press button with digit 1
+  Equals value of 1
+  Displays value of 1
+  Stores value of 1 in calculator
+
+When operation is pressed:
+  Calculate operation
+    Store number that's displayed (in a variable)
+    store operation performed
+  Display new number
+  Stores calculated total
+
+"=" operation
+  Displays stored calculation on #screen
+
+When a digit is pushed after another digit place digit after previously pushed digit
+A.K.A. allow for multiple digit numbers in the calculator

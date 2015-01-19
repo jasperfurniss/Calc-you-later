@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles/main.css">
+<link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="resultbox">
+      <img src = img/chalk.jpg></img>
+      <div class="answer" id="screen"><p>Beets</p><p>Me</p><p>Burger</p>
+      </div>
+    </div>
+    <div class = "bob">
+    <img src = "img/Gene.png"/>
+    </div>
+    <div class="row">
+      <button id="digit7" data-cost="7" type="number">7</button>
+      <button id="digit8" data-cost="8" type="number">8</button>
+      <button id="digit9" data-cost="9" type="number">9</button>
+      <button id="divide" class="operator">/</button>
+    </div>
+
+    <div class="row">
+      <button id="digit4" data-cost="4" type="number">4</button>
+      <button id="digit5" data-cost="5" type="number">5</button>
+      <button id="digit6" data-cost="6" type="number">6</button>
+      <button id="multiply" class="operator">*</button>
+    </div>
+
+    <div class="row">
+      <button id="digit1" data-cost="1" type="number">1</button>
+      <button id="digit2" data-cost="2" type="number">2</button>
+      <button id="digit3" data-cost="3" type="number">3</button>
+      <button id="subtract" class="operator">-</button>
+    </div>
+
+    <div class="row">
+      <button id="clear" class="operator">C</button>
+      <button id="digit0" data-cost="0" type="number">0</button>
+      <button id="equals" class="operator">=</button>
+      <button id="add" class="operator">+</button>
+    </div>
+    <audio id="audio1" src="http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3"></audio>
+    <button id="music" onClick="play()">jam</button>
+  </div>
+  <script type = "text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>
